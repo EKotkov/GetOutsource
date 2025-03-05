@@ -29,9 +29,15 @@ jobs:
 
       - name: Configure Jekyll Compatibility
         run: touch build/.nojekyll
+        
+      - name: Debug Build Output
+        run: ls -la
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+      - name: Check Build Logs
+        run: cat build/index.html || echo "No build output found"
