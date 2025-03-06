@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include=".github\workflows\azure-static-web-apps-gentle-desert-0b147cf03.yml" />
+    <None Include=".github\workflows\azure-static-web-apps-gentle-dune-03e7c990f.yml" />
     <None Include=".github\workflows\deploy.yml" />
   </ItemGroup>
 </Project>
