@@ -27,19 +27,18 @@ function App() {
                 <Row>
                     <Header />
                 </Row>
-
                 <Row>
-                            <BrowserRouter>
-                                <Routes>
-                                    <Route path="/" element={<Main />} />
-                                    <Route path="/portfolio" element={<Portfolio />} />
-                                    <Route path="/hiring" element={<Hiring />} />
-                                    <Route path="/blog" element={<Blog />} />
-                                    <Route path="/about" element={<About />} />
-                                    <Route path="/contacts" element={<Contacts />} />
-                                    <Route path="/page/:id" element={<ContentPage />} />
-                                </Routes>
-                            </BrowserRouter>
+                    <BrowserRouter>
+                        <Routes>
+                            <Route path="/" element={<Main />} />
+                            <Route path="/portfolio" element={<Portfolio />} />
+                            <Route path="/hiring" element={<Hiring />} />
+                            <Route path="/blog" element={<Blog />} />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/contacts" element={<Contacts />} />
+                            <Route path="/page/:id" element={<ContentPage />} />
+                        </Routes>
+                    </BrowserRouter>
                 </Row>
                 <Row>
                     <Footer />
