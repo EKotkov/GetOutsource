@@ -27,10 +27,8 @@ function App() {
                 <Row>
                     <Header />
                 </Row>
-                <Row>
-                    {/*<div className="container">*/}
-                    {/*    <div className="container-inner">*/}
 
+                <Row>
                             <BrowserRouter>
                                 <Routes>
                                     <Route path="/" element={<Main />} />
@@ -42,8 +40,6 @@ function App() {
                                     <Route path="/page/:id" element={<ContentPage />} />
                                 </Routes>
                             </BrowserRouter>
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </Row>
                 <Row>
                     <Footer />
