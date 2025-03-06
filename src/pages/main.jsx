@@ -10,6 +10,7 @@ import Portfolio from '../components/portfolio.jsx';
 import Hiring from '../components/hiring.jsx';
 //import HiringPage from './components/Portfolio/HiringPage.jsx';
 import Blog from '../components/blog.jsx';
+import banner from '../assets/Logo vector_light.svg';
 
 
 function main() {
@@ -17,8 +18,8 @@ function main() {
         <Container>
             <Row>
             <Col >
-                <Card >
-                        <Card.Img variant="top" src="../src/assets/Logo vector_light.svg" />
+                    <Card >
+                        <Card.Img variant="top" src={banner} />
                     <Card.Text >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure

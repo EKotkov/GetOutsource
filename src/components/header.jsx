@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import banner from '../assets/Logo vector_light.svg';
 
 function header() {
     return (
@@ -10,7 +11,7 @@ function header() {
             <Container>
                 <Navbar.Brand href="../">
                     <img
-                        src="../src/assets/Logo vector_light.svg"
+                        src={banner}
                         width="260"
                         height="60"
                         className="d-inline-block align-top"
