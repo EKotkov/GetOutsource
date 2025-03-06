@@ -9,6 +9,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <None Include=".github\workflows\azure-static-web-apps.yml" />
     <None Include=".github\workflows\deploy.yml" />
   </ItemGroup>
 </Project>
